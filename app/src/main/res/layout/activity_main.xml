@@ -30,6 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:onClick="generateQuote"
         android:text="@string/button_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -40,16 +41,18 @@
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
         android:layout_marginBottom="16dp"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dui tellus, sollicitudin sed semper non, facilisis sit amet ex. Phasellus ante magna, aliquam id tortor vitae, egestas rhoncus enim. Etiam sollicitudin dictum sem, sed gravida nisl malesuada suscipit. Maecenas vitae tortor tincidunt, elementum urna ac, venenatis est. Quisque quis blandit magna, nec imperdiet leo. Donec blandit venenatis sollicitudin. Duis pharetra aliquet felis in rhoncus. Fusce fringilla, ligula a vehicula iaculis, risus dui condimentum quam, vitae tempus elit leo id sem.  Nullam ultricies placerat enim, a tempor dolor consectetur vel. Aliquam tincidunt justo sit amet eros condimentum, et lacinia odio sollicitudin. Ut eleifend rutrum lorem nec venenatis. Ut a mollis diam, in finibus justo. Cras iaculis, dui sed ultrices elementum, ipsum tellus fermentum ex, ac posuere ante sapien bibendum massa. Vivamus nisi nisl, mollis nec mi et, ultrices facilisis arcu. Donec ut metus nec quam fermentum malesuada at a elit. Etiam tristique, ipsum nec euismod elementum, nunc metus gravida dui, mollis pretium dolor felis in dolor. Quisque vitae molestie ex. Nullam at purus quis quam egestas sollicitudin ac ac risus. Sed ac leo dolor. Aenean nec ligula a tellus fermentum volutpat nec vitae ligula. Vestibulum metus massa, mollis ac efficitur nec, facilisis eu libero."
+        android:text="Pressione o botão para gerar uma nova frase!"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
